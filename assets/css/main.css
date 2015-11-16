@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+body {
+  background-color: #2A2B30;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0; }
+  body .compare-full {
+    width: 100%;
+    background-color: #212227;
+    position: absolute;
+    top: -100%;
+    transition: all 0.3s ease-in-out; }
+    body .compare-full.is-open {
+      top: 0%; }
+  body .compare-wrapper {
+    max-width: 1200px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 15px 0; }
+  body .compare {
+    float: right; }
+  body .empty, body .compare-btn {
+    float: left;
+    background-color: #2C2D34; }
+  body .empty {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 2px; }
+  body .compare-btn {
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 5px;
+    color: #4E5262;
+    padding: 14px 20px;
+    border-radius: 2px;
+    font-weight: 700;
+    letter-spacing: 1px; }
+    body .compare-btn .ion-checkmark {
+      display: inline-block;
+      margin-right: 5px; }
+  body .header {
+    clear: both; }
+  body .logo {
+    margin-top: 100px; }
+  body h1 {
+    font-weight: 300;
+    margin-bottom: 100px; }
+  body a {
+    display: inline-block;
+    margin: 0;
+    border-radius: 2px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out; }
+    body a:hover {
+      background-color: #AFA0D4;
+      color: white; }
+  body #compare {
+    max-width: 1200px;
+    margin: 0 auto 100px;
+    overflow: auto; }
+    body #compare .product-unit {
+      float: left;
+      width: 280px;
+      text-align: center;
+      margin: 20px 10px;
+      padding: 25px 0;
+      background-color: #24252A;
+      border-radius: 5px;
+      position: relative; }
+      body #compare .product-unit img {
+        border-radius: 2px; }
+      body #compare .product-unit .ion-plus {
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: #999;
+        cursor: pointer; }
+        body #compare .product-unit .ion-plus:hover {
+          color: #AFA0D4; }
+
+h1, h2, h3, h4, p {
+  font-weight: 300; }
+
+.clear {
+  display: table;
+  content: ""; }
